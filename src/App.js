@@ -8,7 +8,7 @@ function App() {
         <div className="container-fluid">
             <Navbar/>
             <div className="container">
-<Outlet/>
+            <Outlet/>
             </div>
         </div>
     );

@@ -12,6 +12,7 @@ import Posts from "./components/posts";
 import Home from "./components/home";
 import notFound from "./components/notFound";
 import NotFound from "./components/notFound";
+import LoginForm from "./components/loginForm";
 
 
 ReactDOM.render(
@@ -21,6 +22,7 @@ ReactDOM.render(
                 <Route path="/" element={<App/>}>
                     <Route path="home" element={<Home/>}/>
                     <Route path="posts" element={<Posts/>}/>
+                    <Route path="login" element={<LoginForm/>}/>
                     <Route
                         path="*"
                         element={

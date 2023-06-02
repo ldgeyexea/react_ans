@@ -10,5 +10,4 @@ const NotFound = () => {
         <Link className="btn btn-primary btn-lg" to="/home" role="button">Home</Link>
     </div>;
 };
-
 export default NotFound;
